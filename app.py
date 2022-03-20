@@ -48,7 +48,7 @@ def predict():
     return render_template("predict.html", data = data) ## ginger format inhtml
 
 
-if __name__ == __main__:
+if __name__ == "__main__":
     app.run(debug = True)
 
 ## create env and pip install flask frist
